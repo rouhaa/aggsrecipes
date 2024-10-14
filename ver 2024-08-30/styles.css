@@ -1,0 +1,175 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 246, 244, 100);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+.title {
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: 800;
+    color: white;
+    background-color: rgba(246,178,211,100);
+    background-size: cover;
+    margin: 0;
+    border-bottom: 1px solid rgba(255, 255, 255);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.line {
+    margin: 0;
+}
+
+.nav ul{
+    margin: 0;
+}
+
+.main-header{
+    background-color: rgba(246,178,211,100);
+    background-size: cover;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding-inline: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.nav {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.mfooter {
+    background-color: rgba(246,178,211,100);
+    background-size: cover;
+    padding: 1em;
+    text-align: center;
+    size: 5%;
+}
+
+.mfooter li {
+    display: inline;
+}
+
+.mfooter a {
+    color: black;
+    padding: 1em;
+}
+
+p{
+    margin: 60px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.container {
+    text-align: center;
+    padding: 5%;
+    outline-style: hidden;
+    padding-block: 3em;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+}
+
+.container li {
+    list-style-type: none;
+}
+
+.homenav {
+    color: black;
+}
+
+.mfooter {
+    font-size: 2em;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.mfooter li {
+    display: inline;
+    margin-left: 20px;
+    text-decoration: none; 
+}
+
+.mfooter a {
+    display: inline-block;
+    padding: 2em;
+    padding-left: 2%;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    margin: 0;
+}
+
+.secondnav {
+    border: 2px solid grey;
+    background-color: white;
+    margin: 0%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    padding-left: 1%;
+    padding-right: 1%;;
+}
+
+.secondnav a {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.secondnav a:hover {
+    text-decoration: underline;
+}
+
+.image {
+    border: 1px solid grey;
+    margin: 0%;
+    padding: 0%;
+}
+
+.title2 {
+    padding-top: 5%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
