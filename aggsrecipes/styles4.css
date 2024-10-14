@@ -1,0 +1,290 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 246, 244, 100);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+.title {
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: 800;
+    color: white;
+    background-color: rgba(246,178,211,100);
+    background-size: cover;
+    margin: 0;
+    border-bottom: 1px solid rgba(255, 255, 255);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.line {
+    margin: 0;
+}
+
+.nav ul{
+    margin: 0;
+}
+
+.main-header{
+    background-color: rgba(246,178,211,100);
+    background-size: cover;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding-inline: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.nav {
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 5%;
+}
+
+.mfooter {
+    background-color: rgba(246,178,211,100);
+    background-size: cover;
+    padding: 1em;
+    text-align: center;
+    size: 5%;
+    margin-top: 3%;
+}
+
+.mfooter li {
+    display: inline;
+}
+
+.mfooter a {
+    color: black;
+    padding: 1em;
+}
+
+p{
+    margin: 60px;
+}
+
+.mfooter {
+    background-color: rgba(246,178,211,100);
+    background-size: cover;
+    padding: 1em;
+    text-align: center;
+    size: 5%;
+}
+
+.mfooter li {
+    display: inline;
+}
+
+.mfooter ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.mfooter a {
+    color: black;
+    padding: 1em;
+}
+
+p{
+    margin: 60px;
+}
+
+.mfooter {
+    font-size: 2em;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.mfooter li {
+    display: inline;
+    margin-left: 20px;
+    text-decoration: none; 
+}
+
+.mfooter a {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    padding-left: 2%;
+
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+section div {
+    margin: 0;
+    padding: 0;
+}
+
+.ingredients, .method {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.ingredients ul, .method ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0;
+    font-size: 100%;
+}
+
+.image {
+    width: 50%;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+div h5 {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+}
+
+.ingredients {
+    margin-right: 10%;
+}
+
+/* Form styling */
+body .ratinginput {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    max-width: 70%;
+    margin: 40px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ratinginput h2,
+.ratinginput h4 {
+    margin: 0; 
+}
+
+.ratinginput h2 {
+    color: #333;
+    text-align: center; 
+}
+
+.ratinginput h4 {
+    margin-bottom: 20px;
+    color: #555;
+    text-align: center;
+}
+
+.rating {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.forms label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.forms input[type="text"],
+.forms textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.forms textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.rating-stars {
+    display: flex;
+    gap: 5px;
+}
+
+.rating-stars input[type="radio"] {
+    display: none;
+}
+
+.rating-stars label {
+    font-size: 24px;
+    color: grey;
+    cursor: pointer;
+}
+
+.rating-stars label:hover,
+.rating-stars label:hover ~ label {
+    color: #ffcc00;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}

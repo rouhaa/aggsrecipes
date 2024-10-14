@@ -1,0 +1,167 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 246, 244, 100);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+.title {
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: 800;
+    color: white;
+    background-color: rgba(246,178,211,100);
+    background-size: cover;
+    margin: 0;
+    border-bottom: 1px solid rgba(255, 255, 255);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.line {
+    margin: 0;
+}
+
+.nav ul{
+    margin: 0;
+}
+
+.main-header{
+    background-color: rgba(246,178,211,100);
+    background-size: cover;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding-inline: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.nav {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.mfooter {
+    background-color: rgba(246,178,211,100);
+    background-size: cover;
+    padding: 1em;
+    text-align: center;
+    size: 5%;
+}
+
+.mfooter li {
+    display: inline;
+}
+
+.mfooter ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.mfooter a {
+    color: black;
+    padding: 1em;
+}
+
+p{
+    margin: 60px;
+}
+
+.mfooter {
+    font-size: 2em;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.mfooter li {
+    display: inline;
+    margin-left: 20px;
+    text-decoration: none; 
+}
+
+.mfooter a {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    padding-left: 2%;
+
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    align-items: center;
+    gap: 1%;
+}
+
+.row span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 45%;
+    justify-content: center;
+}
+
+.contacts {
+    width: 60%;
+    padding: 10px;
+    margin: 7% auto;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 7%;
+    margin-top: 7%;
+    padding-bottom: 5%;
+}
+
+.contacts h4 {
+    text-align: center;
+    font-size: 200%;
+    margin-bottom: 0;
+}
+
+.logos {
+    width: 40px;
+    height: 40px; 
+    object-fit: contain;
+    vertical-align: middle;
+}
+
+.row p {
+    margin: 10%;
+    line-height: 1.5;
+}
