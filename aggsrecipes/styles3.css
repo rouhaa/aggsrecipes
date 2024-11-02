@@ -122,6 +122,7 @@ p{
 
 .row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding: 2%;
     align-items: center;
@@ -131,6 +132,7 @@ p{
 .row span {
     display: flex;
     align-items: center;
+    width: 100%;
     gap: 10px;
     width: 45%;
     justify-content: center;
@@ -164,4 +166,26 @@ p{
 .row p {
     margin: 10%;
     line-height: 1.5;
+}
+
+@media (max-width: 815px) {
+    .row {
+        flex-direction: column;
+        padding: 1%;
+        gap: 5%;
+    }
+
+    .row span {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .contacts {
+        width: 90%;
+        padding: 5%;
+    }
+
+    .row p {
+        margin: 5%;
+    }
 }
